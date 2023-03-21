@@ -1,0 +1,92 @@
+{
+  "uid" : "a13fcae8558aaf04",
+  "name" : "case14：结束游戏功能测试",
+  "fullName" : "testcase.test_PlayStreamer.TestPlayStreamer#test_gameover",
+  "historyId" : "f502c7a67e81b17204ca0b4cc4eefea6",
+  "time" : {
+    "start" : 1659529734589,
+    "stop" : 1659529742739,
+    "duration" : 8150
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1659529718593,
+      "stop" : 1659529734588,
+      "duration" : 15995
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "drivers::fin",
+    "time" : {
+      "start" : 1659529742739,
+      "stop" : 1659529744866,
+      "duration" : 2127
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "基本功能"
+  }, {
+    "name" : "tag",
+    "value" : "quit"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_PlayStreamer"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPlayStreamer"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-FK9D9A7"
+  }, {
+    "name" : "thread",
+    "value" : "22772-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_PlayStreamer"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "quit" ]
+  },
+  "source" : "a13fcae8558aaf04.json",
+  "parameterValues" : [ ]
+}

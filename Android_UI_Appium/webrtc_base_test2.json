@@ -1,0 +1,105 @@
+{
+  "name": "WEBRTC",
+
+  "host": "localhost",
+  "port": 4723,
+
+  "logcatDir": "./logcat",
+
+  "maxLogCacheSize": 20480,
+
+  "device_comment": "10 8GH0220428011551 ### 8.1.0 5af6ea18 ### 4.4.2 BY3EGS155N012519",
+
+  "platformName": "Android",
+  "platformVersion": "5.0.2",
+  "deviceName": "582cde36",
+  "appPackage": "com.haima.me.saas_sdk.master",
+  "appActivity": "com.haima.me.saas_sdk.activity.FlashActivity",
+
+
+  "helperApp": "com.haima.appium_helper",
+  "helperAppActivity": "com.haima.appium_helper.MainActivity",
+
+  "needPermmit": false,
+
+  "testcases": [
+
+    {
+      "run": true,
+      "className": "src.test.test_normalnew.TestNormal",
+      "options": {
+        "testFirstFrameCount": 1
+      }
+    },
+    {
+      "run": false,
+      "className": "src.test.test_sdk_rtmp_normal.TestRtmpNormal",
+      "options": {
+        "testFirstFrameCount": 1
+      }
+    },
+
+    {
+      "run": false,
+      "className": "src.test.test_network_changed.TestNetworkChanged",
+      "options": {
+        "testFirstFrameCount": 1
+      }
+    },
+     {
+      "run": false,
+      "className": "src.test.test_sdk_rtmp_network_changed.TestRtmpNetworkChanged",
+      "options": {
+        "testFirstFrameCount": 1
+      }
+    },
+
+    {
+      "run": false,
+      "className": "src.test.test_enter_background.TestEnterBackground",
+      "options": {
+        "testFirstFrameCount": 1
+      }
+    },
+    {
+      "run": false,
+      "className": "src.test.test_sdk_rtmp_enter_background.TestRtmpEnterBackground",
+      "options": {
+        "testFirstFrameCount": 1
+      }
+    },
+
+
+    {
+      "run": false,
+      "className": "src.test.test_switch_resolution.TestSwitchResolution",
+      "options": {
+        "testFirstFrameCount": 1
+      }
+    },
+    {
+      "run": false,
+      "className": "src.test.test_sdk_rtmp_switch_resolution.TestRtmpSwitchResolution",
+      "options": {
+        "testFirstFrameCount": 1
+      }
+    },
+
+    {
+      "run": false,
+      "className": "src.test.test_sdk_switch_resolution_network.TestSwitchResolutionNetwork",
+      "options": {
+        "testFirstFrameCount": 1
+      }
+    }
+    ,
+
+    {
+      "run": false,
+      "className": "src.test.test_sdk_rtmp_switch_resolution_network.TestRtmpSwitchResolutionNetwork",
+      "options": {
+        "testFirstFrameCount": 1
+      }
+    }
+  ]
+}

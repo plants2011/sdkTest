@@ -1,0 +1,16 @@
+[ {
+  "values" : [ "3.8.9 " ],
+  "name" : "python.Version"
+}, {
+  "values" : [ "102.0.5005.63 " ],
+  "name" : "Browser.Version"
+}, {
+  "values" : [ "WebSDK" ],
+  "name" : "SDK.Version"
+}, {
+  "values" : [ "4.4.3" ],
+  "name" : "selenium.Version"
+}, {
+  "values" : [ "Chrome  " ],
+  "name" : "Browser"
+} ]

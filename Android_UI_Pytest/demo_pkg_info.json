@@ -1,0 +1,76 @@
+{
+	"auths": [{
+			"id": "rel",
+			"name": "rel",
+			"saas_auth": "https://saas-rel.haimawan.com/s/rest/api",
+			"accessKeyId": "99e355d64d2",
+			"accessKey": "ab3b07f5b00a57448281655cf9811fec"
+		},{
+			"id": "haimarel",
+			"name": "haimarel",
+			"saas_auth": "https://saas-rel.haimawan.com/s/rest/api",
+			"accessKeyId": "1a305ed1dbc",
+			"accessKey": "a4e8b7bfb8014061771b9b2c83b6ab01"
+		},{
+			"id": "netrel",
+			"name": "netrel",
+			"saas_auth": "https://saas-rel.haimawan.com/s/rest/api",
+			"accessKeyId": "fc7d0c914cd",
+			"accessKey": "5cedb749a331d4cc00e8f05a3b2e6f45"
+		},{
+      		"id": "staging",
+      		"name": "staging",
+      		"saas_auth": "https://saas-pre-staging.haimawan.com/s/rest/api",
+      		"accessKeyId": "3a1d604a5b9",
+      		"accessKey": "92dedaef447b06eb7f81b21f459e92a4"
+    }],
+	"games": [{
+		"id": "com.FanyeGames.Projectile",
+		"name": "抛h265",
+		"portrait": "0",
+		"appChannel": "h265",
+		"configInfo": ""
+	},{
+			"id": "com.miHoYo.Yuanshen",
+			"name": "原神",
+			"portrait": "1",
+			"appChannel": "h265",
+			"configInfo": ""
+		},{
+		"id": "com.playcloud.msgsdkdemo",
+		"name": "MsgSdk",
+		"portrait": "0",
+		"appChannel": "test",
+		"configInfo": ""
+	},{
+		"id": "net.sourceforge.opencamera",
+		"name": "OpenCamera",
+		"portrait": "0",
+		"appChannel": "yunce",
+		"configInfo": ""
+	},{
+		"id": "com.miHoYo.Yuanshen",
+		"name": "Genshin",
+		"portrait": "0",
+		"appChannel": "yuanshen",
+		"configInfo": ""
+	},{
+		"id": "com.netease.sky",
+		"name": "光·遇",
+		"portrait": "0",
+		"appChannel": "yuanshen",
+		"configInfo": ""
+	},{
+		"id": "com.netease.sky",
+		"name": "光遇",
+		"portrait": "0",
+		"appChannel": "xiaomao",
+		"configInfo": ""
+	},{
+		"id": "com.tencent.mobileqq",
+		"name": "QQ-mao1",
+		"portrait": "1",
+		"appChannel": "mao1",
+		"configInfo": ""
+	}]
+}

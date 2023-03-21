@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-FK9D9A7",
+    "children" : [ {
+      "name" : "22772-MainThread",
+      "children" : [ {
+        "name" : "case14：结束游戏功能测试",
+        "uid" : "a13fcae8558aaf04",
+        "parentUid" : "e63531124c97e3db96b3d7636407d904",
+        "status" : "passed",
+        "time" : {
+          "start" : 1659529734589,
+          "stop" : 1659529742739,
+          "duration" : 8150
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e63531124c97e3db96b3d7636407d904"
+    } ],
+    "uid" : "0c54938e77db288581b06d28189993b0"
+  } ]
+}

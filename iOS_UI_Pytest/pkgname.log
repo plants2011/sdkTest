@@ -1,0 +1,45 @@
+{
+  "accessKeyId": "1a305ed1dbc",
+  "accessKey": "a4e8b7bfb8014061771b9b2c83b6ab01",
+  "games": [
+     {
+      "id": "com.tencent.mobileqq",
+      "name": "qq",
+      "portrait": "1",
+      "appChannel":"hmctest",
+      "configInfo":""
+    },
+    {
+      "id": "com.playcloud.msgsdkdemo",
+      "name": "Msg_1.2",
+      "portrait": "0",
+      "appChannel":"msg12",
+      "configInfo":""
+    }, {
+      "id": "com.playcloud.msgsdkdemo",
+      "name": "Msg212",
+      "portrait": "0",
+      "appChannel":"msg212",
+      "configInfo":""
+    },{
+		"id": "net.sourceforge.opencamera",
+		"name": "OpenCamera",
+		"portrait": "1",
+		"appChannel": "yunce",
+		"configInfo": ""
+	},{
+      "id": "com.netease.sky",
+      "name": "光·遇-rel",
+      "portrait": "0",
+      "appChannel":"12",
+      "configInfo":""
+    },
+    {
+      "id": "com.ifeimo.audiorecord",
+      "name": "录音大师",
+      "portrait": "0",
+      "appChannel":"test002",
+      "configInfo":""
+    }
+  ]
+}

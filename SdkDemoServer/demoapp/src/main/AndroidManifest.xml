@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hm.qa.demoapp">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!--相机权限-->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!--定位权限-->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ServerApp">
+        <activity
+            android:name=".TestScreenCap"
+            android:exported="true" />
+        <activity
+            android:name=".TestAudioRecord"
+            android:exported="true"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name=".TestInput"
+            android:exported="true"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name=".TestCamera"
+            android:exported="true"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name=".TestLandscape"
+            android:exported="true"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".TestBrightness"
+            android:exported="true"
+            android:screenOrientation="sensor"/>
+        <activity
+            android:name=".TestSenser"
+            android:exported="true"
+            android:screenOrientation="sensor"/>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".common.ScreenRecorderService"
+            android:enabled="true"
+            android:foregroundServiceType="mediaProjection" />
+    </application>
+
+</manifest>

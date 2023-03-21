@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testcase.test_PlayStreamer",
+    "children" : [ {
+      "name" : "case14：结束游戏功能测试",
+      "uid" : "a13fcae8558aaf04",
+      "parentUid" : "3429c5dca3c6227cad737061b7b5af01",
+      "status" : "passed",
+      "time" : {
+        "start" : 1659529734589,
+        "stop" : 1659529742739,
+        "duration" : 8150
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "testcase.test_PlayStreamer"
+  } ]
+}

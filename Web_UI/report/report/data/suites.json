@@ -1,0 +1,30 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testcase",
+    "children" : [ {
+      "name" : "test_PlayStreamer",
+      "children" : [ {
+        "name" : "TestPlayStreamer",
+        "children" : [ {
+          "name" : "case14：结束游戏功能测试",
+          "uid" : "a13fcae8558aaf04",
+          "parentUid" : "3715da971b5c6e82c7f0be130fc0c023",
+          "status" : "passed",
+          "time" : {
+            "start" : 1659529734589,
+            "stop" : 1659529742739,
+            "duration" : 8150
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "3715da971b5c6e82c7f0be130fc0c023"
+      } ],
+      "uid" : "0644e9493240f0e0d13be6e2fb137e2c"
+    } ],
+    "uid" : "7d3977dcbf31acd3e26ecbe96342e45e"
+  } ]
+}

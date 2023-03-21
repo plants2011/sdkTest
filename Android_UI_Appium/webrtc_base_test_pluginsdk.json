@@ -1,0 +1,58 @@
+{
+  "name": "WEBRTC",
+
+  "host": "localhost",
+  "port": 4723,
+
+  "logcatDir": "./logcat",
+
+  "maxLogCacheSize": 20480,
+
+  "device_comment": "10 8GH0220428011551 ### 8.1.0 5af6ea18 ### 4.4.2 BY3EGS155N012519",
+
+  "platformName": "Android",
+  "platformVersion": "5.0.2",
+  "deviceName": "582cde36",
+  "appPackage": "com.example.hmcpdemo",
+  "appActivity": ".activity.SettingActivity",
+
+  "helperApp": "com.haima.appium_helper",
+  "helperAppActivity": "com.haima.appium_helper.MainActivity",
+
+  "needPermmit": false,
+
+  "testcases": [
+
+    {
+      "run": true,
+      "className": "src.test.test_pluginsdk_normal.TestNormal",
+      "options": {
+        "testFirstFrameCount": 2
+      }
+    },
+
+    {
+      "run": false,
+      "className": "src.test.test_pluginsdk_network_changed.TestNetworkChanged",
+      "options": {
+        "testFirstFrameCount": 1
+      }
+    },
+
+    {
+      "run": false,
+      "className": "src.test.test_pluginsdk_enter_background.TestEnterBackground",
+      "options": {
+        "testFirstFrameCount": 1
+      }
+    },
+
+    {
+      "run": false,
+      "className": "src.test.test_pluginsdk_switch_resolution.TestSwitchResolution",
+      "options": {
+        "testFirstFrameCount": 1
+      }
+    }
+  ]
+}

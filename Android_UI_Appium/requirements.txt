@@ -1,0 +1,4 @@
+Appium-Python-Client==1.0.2
+concurrent-log-handler
+python-dateutil
+

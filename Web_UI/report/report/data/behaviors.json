@@ -1,0 +1,22 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "基本功能",
+    "children" : [ {
+      "name" : "case14：结束游戏功能测试",
+      "uid" : "a13fcae8558aaf04",
+      "parentUid" : "613991b057001bd64811854fd90d3fab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1659529734589,
+        "stop" : 1659529742739,
+        "duration" : 8150
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "613991b057001bd64811854fd90d3fab"
+  } ]
+}

@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ec9cdbab-0ae6-4a42-b19f-d654e908d63e" name="Default Changelist" comment="增加rtmp播流、排队、游戏时长到结束游戏、更新uid与游戏时长功能，并优化部分用例断言">
+      <change afterPath="$PROJECT_DIR$/../Android_UI_Pytest/.idea/Android_UI_Pytest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../H5_UI/.idea/H5_UI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../H5_UI/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../H5_UI/conf/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../H5_UI/conf/driverConfig.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../H5_UI/conf/gameConfig.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../H5_UI/pytest.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../H5_UI/testcases/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../H5_UI/testdriver/BaseDriver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../H5_UI/testdriver/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../H5_UI/util/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run_case.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/test_fullscreen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/driverBase.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/driverBase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/getplayaddress.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/getplayaddress.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/gameConfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/gameConfig.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/webPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/webPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/report/data/behaviors.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report/report/data/behaviors.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/report/data/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/report/data/behaviors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/report/data/packages.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/report/data/packages.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/report/data/suites.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report/report/data/suites.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/report/data/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/report/data/suites.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/report/data/test-cases/a13fcae8558aaf04.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/report/data/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/report/data/timeline.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/report/export/influxDbData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/report/report/export/influxDbData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/report/export/prometheusData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/report/report/export/prometheusData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/report/history/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/report/history/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/report/history/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/report/history/history-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/report/history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/report/history/history.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/report/history/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/report/history/retry-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/report/widgets/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/report/widgets/behaviors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/report/widgets/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/report/widgets/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/report/widgets/duration.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/report/widgets/duration.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/report/widgets/environment.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/report/widgets/environment.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/report/widgets/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/report/widgets/history-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/report/widgets/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/report/widgets/retry-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/report/widgets/severity.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/report/widgets/severity.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/report/widgets/status-chart.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/report/widgets/status-chart.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/report/widgets/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/report/widgets/suites.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/report/widgets/summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/report/report/widgets/summary.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/9a510f24-33b9-4163-8856-202daea5e0c8-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/tmp/cf860e8a-9677-4679-b6d2-6b2f1d314220-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/test_Control.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/test_Control.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/test_Living.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/test_Living.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/test_UpAndDown.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/test_UpAndDown.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/test_endGame.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/test_endGame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/test_queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/test_queue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/test_rtmp.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/test_rtmp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/test_updateGameUID.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/test_updateGameUID.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="2DsHA0FNS7TuUh5ifVBiTcjVe2C" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SDKUI\SDKTest\Web_UI" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.run_case">
+    <configuration name="getplayaddress" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Web_UI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/getplayaddress.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run_case" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Web_UI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_case.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_UpAndDown" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Web_UI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/test_UpAndDown.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_rtmp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Web_UI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/test_rtmp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="webPage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Web_UI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/page" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/page/webPage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.run_case" />
+        <item itemvalue="Python.getplayaddress" />
+        <item itemvalue="Python.test_rtmp" />
+        <item itemvalue="Python.webPage" />
+        <item itemvalue="Python.test_UpAndDown" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ec9cdbab-0ae6-4a42-b19f-d654e908d63e" name="Default Changelist" comment="" />
+      <created>1661480729323</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661480729323</updated>
+    </task>
+    <task id="LOCAL-00001" summary="获取控制权优化，增加截图下载功能">
+      <created>1661488066436</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661488066436</updated>
+    </task>
+    <task id="LOCAL-00002" summary="增加rtmp播流、排队、游戏时长到结束游戏、更新uid与游戏时长功能，并优化部分用例断言">
+      <created>1662722160950</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662722160950</updated>
+    </task>
+    <task id="LOCAL-00003" summary="增加rtmp播流、排队、游戏时长到结束游戏、更新uid与游戏时长功能，并优化部分用例断言">
+      <created>1662722183554</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662722183554</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="获取控制权优化，增加截图下载功能" />
+    <MESSAGE value="增加rtmp播流、排队、游戏时长到结束游戏、更新uid与游戏时长功能，并优化部分用例断言" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加rtmp播流、排队、游戏时长到结束游戏、更新uid与游戏时长功能，并优化部分用例断言" />
+  </component>
+</project>
